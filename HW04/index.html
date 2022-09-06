@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <section>
+        <h2 class="h2">Create an Account</h2>
+        <form>
+            <label>First Name</label>
+            <input name="first name" type="text">
+            <label>Last Name</label>
+            <input name="last name" type="text">
+            <div>
+                <label>E-mail</label>
+                <input name="email" type="email">
+                <p>We'll never share your email with anyone else.</p>
+            </div>
+            <input id="male" name="gender" type="radio" value="male">
+            <label for="male">Male</label>
+            <input id="female" name="gender" type="radio" value="female">
+            <label for="female">Female</label>
+            <div>
+                <label>Country</label>
+                <select name="" id="">
+                    <option value="">Ukraine</option>
+                    <option value="">USA</option>
+                    <option value="">Greece</option>
+                    <option value="">Poland</option>
+                </select>
+                <label for="">City</label>
+                <input name="city" type="text">
+            </div>
+            <button>Sign Up</button>
+            <p>By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            <hr>
+            <p>Have an account?</p>
+            <a href="#">Log In</a>
+        </form>
+    </section>
+
+    <section>
+        <h2>Profile</h2>
+        <form>
+            <img src="Image.png" alt="Foto profile">
+            <input name="foto" type="file">
+            <button type="reset">
+                <img src="Trash.svg" alt="trash">
+            </button>
+            <div>
+                <label>Name</label>
+                <input name="name" type="text">
+                <label for="">E-mail</label>
+                <input name="e-mail" type="email">
+            </div>
+            <div>
+                <label>Country</label>
+                <select name="" id="">
+                    <option value="">Ukraine</option>
+                    <option value="">USA</option>
+                    <option value="">Greece</option>
+                    <option value="">Poland</option>
+                </select>
+                <label for="">City</label>
+                <input name="City" type="text">
+            </div>
+            <div>
+                <label>Zip Code</label>
+                <input name="zip code" type="text">
+                <label>Phone Number</label>
+                <input name="telephone" type="tel">
+            </div>
+            <button>Update</button>
+        </form>
+    </section>
+    
+</body>
+</html>
