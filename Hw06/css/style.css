@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    font-family: 'Open Sans';
+    color: #070707;
+    margin: 0;
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 256px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 28px;
+    margin: 0;
+    height: 80px;
+}
+
+.header__menu-item {
+    padding-left: 40px;
+    text-align: center;
+}
+
+.header__menu-link:hover {
+    color: #070707;
+    cursor: pointer;
+}
+
+.header__menu-link {
+    font-family: 'Open Sans';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #828282;
+}
+
+.line {
+    margin: 0;
+}
+
+.main {
+    margin-top: 12px;
+}
+
+.main__title {
+    font-family: 'Open Sans';
+    color: #070707;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.main__img {
+    height: 387px;
+}
+
+.about {
+    height: 500px;
+    background: #F6F6F6;
+    padding-top: 100px;
+}
+
+.about__title {
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+
+.about__first-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.about__second-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 30px auto
+}
+
+.first-p {
+    width: 406px;
+}
+
+.second-p {
+    width: 321px;
+}
+
+.skills {
+    height: 564px;
+}
+
+.skills__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__item {
+    width: 170px;
+    height: 230px;
+}
+
+.skills__item-img {
+    display: block;
+    padding: 0 45px;
+    margin: 0 auto;
+}
+
+.skills__item-text {
+    height: 38px;
+    width: 90px;
+    font-family: 'Open Sans';
+    color: #828282;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.item__level {
+    width: 170px;
+}
+
+.item__level img {
+    padding-left: 3px;
+}
+
+.portfolio {
+    background: #F6F6F6;
+}
+
+.portfolio__item {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.portfolio__item-text {
+    width: 260px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 40px auto 70px;
+}
+
+.footer__contact {
+    margin: 20px 0 60px;
+}
+
+.footer__contact-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.footer__network-btn {
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    width: 180px;
+    height: 44px;
+    background: #070707;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 22px;
+}
+
+.footer__network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.footer__text {
+    width: 200px;
+    margin: 60px auto 100px;
+}
+
+.footer__text-item {
+    font-family: 'Open Sans';
+    color: #828282;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
