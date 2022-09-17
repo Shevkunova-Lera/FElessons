@@ -23,7 +23,7 @@ button {
 }
 
 .container {
-    max-width: 1124px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 10px;
@@ -31,18 +31,33 @@ button {
 }
 
 .header__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 78px;
+    padding: 27px 0;
+    margin-bottom: 70px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .menu {
-    margin-left: auto;
+    display: inline-block;
+    max-width: 352px;
+    vertical-align: middle;
+    margin: 0 198px 0 198px;
 }
 
 .menu__list {
-    display: flex;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__list-item {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .menu__list-item + .menu__list-item {
@@ -57,9 +72,13 @@ button {
     text-decoration: none;
 }
 
+.menu__list-link:hover {
+    color: #FF9900;
+}
+
 .user-nav {
-    margin-left: 52px;
-    margin-left: 13px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .user-nav__link {
@@ -80,6 +99,10 @@ button {
     background: #FF9900;
     color: #fff;
 }
+
+
+
+
 
 .top__inner {
     padding: 133px 0 80px;
@@ -133,6 +156,13 @@ button {
     height: 19px;
     background-image: url(../images/play-icon.svg);
 }
+
+
+
+
+
+
+
 
 .tools {
     padding-top: 110px;
@@ -514,7 +544,7 @@ button {
     border: none;
 }
 
-.menu__btn {
+/* .menu__btn {
     width: 40px;
     height: 30px;
     display: none;
@@ -546,4 +576,4 @@ button {
 
 .menu__btn::after {
     bottom: 0;
-}
+} */
