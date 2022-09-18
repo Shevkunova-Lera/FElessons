@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: #3399CC;
+    border: 25px solid #2B81AC;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+h6 {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 66px;
+    margin-bottom: 38px;
+}
+
+ul {
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 35px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    height: 147px;
+    font-family: 'Lucida Sans Unicode';
+    padding-top: 26px;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+
+.lisbon {
+    width: 50%;
+    background-color: #3399CC;
+    border: 2px solid #FFFFFF;
+}
+
+li:hover {
+    opacity: 0.7; 
+}
+
+.paris {
+    width: 25%;
+    background: #33CCCC;
+    border: 2px solid #FFFFFF;
+    border-right: none;
+    border-left: none;
+}
+
+.belgrade {
+    width: 25%;
+    background: #996699;;
+    border: 2px solid #FFFFFF;
+}
+
+.venice {
+    width: 25%;
+    background: #C24747;
+    border: 2px solid #FFFFFF;
+    border-top: none;
+}
+
+.tel-avive {
+    width: 25%;
+    background: #E2674A;
+    border: 2px solid #FFFFFF;
+    border-left: none;
+    border-top: none;
+}
+
+.cair {
+    background: #FFCC66;
+    width: 25%;
+    border: 2px solid #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.new-york {
+    background: #99CC99;
+    width: 25%;
+    border: 2px solid #FFFFFF;
+    border-top: none;
+}
+
+.new-delhi {
+    background: #669999;
+    width: 25%;
+    border: 2px solid #FFFFFF;
+    border-top: none;
+}
+
+.san-fran {
+    background: #CC6699;
+    width: 50%;
+    border: 2px solid #FFFFFF;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.tokyo {
+    background: #339966;
+    width: 25%;
+    border: 2px solid #FFFFFF;
+    border-top: none;
+}
+
+.sydney {
+    background: #666699;
+    width: 100%;
+    border: 2px solid #FFFFFF;
+    border-top: none;
+}
+
+.deg {
+    padding-top: 19px;
+}
+
+.text {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 119px;
+}
