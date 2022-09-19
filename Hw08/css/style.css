@@ -82,7 +82,7 @@ button {
 }
 
 .user-nav__link {
-    color: #173A56;
+    color: #2F281E;;
     font-style: 16px;
     line-height: 24px;
     font-weight: 600;
@@ -137,32 +137,6 @@ button {
     margin-right: 30px;
     border: none;
 }
-
-.top__link {
-    line-height: 24px;
-    display: inline-block;
-    font-weight: 600;
-    color: #ff9900;
-    padding-left: 25px;
-    position: relative;
-}
-
-.top__link::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 2px;
-    width: 17px;
-    height: 19px;
-    background-image: url(../images/play-icon.svg);
-}
-
-
-
-
-
-
-
 
 .tools {
     padding-top: 110px;
@@ -486,9 +460,12 @@ button {
     background-color: #ff9900;
 }
 
+.footer {
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+}
+
 .footer__inner {
     padding: 105px 0 100px;
-    border-top: 1px solid rgba(188, 208, 229, 0.496913);
     display: flex;
     justify-content: space-between;
 }
