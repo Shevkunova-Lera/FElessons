@@ -139,3 +139,14 @@ img::before {
 .people__item {
     position: relative;
 }
+
+.like-block {
+    width: 40px;
+    height: 40px;
+    background: url(../images/like.png) no-repeat;
+    border-radius: 8px;
+}
+
+.like-block-img {
+    background: rgba(224, 224, 224, 0.5);
+}
