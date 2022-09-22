@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-border {
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list-link:hover {
+    color: #18B5DC;
+}
+
+.menu__list-item {
+    margin: 0 30px;
+    
+}
+
+.menu__list-link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C3C3C;
+    text-transform: uppercase;
+}
+
+.user-nav {
+    font-size: 18px;
+    line-height: 22px;
+    color: #3C3C3C;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid #3C3C3C;
+    background: #fff;
+}
+
+.user-nav:hover {
+    background: #18B5DC;
+    color: #fff;
+    border: 1px solid #18B5DC;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-top: 150px;
+    color: #3C3C3C;
+}
+
+hr {
+    width: 45px;
+    height: 4px;
+    background: #DDDBDB;
+    margin: 20px auto 40px auto;
+}
+
+.p-size-height {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C3C3C;
+    width: 570px;
+    margin: 0 auto;
+}
+
+.main__team {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 150px auto;
+}
+
+.first__team-img {
+    width: 270px;
+    height: 270px;
+    background: url(../images/photo-1.png) no-repeat;
+}
+
+.second__team-img {
+    width: 270px;
+    height: 270px;
+    background: url(../images/photo-1.png) no-repeat;
+}
+
+.third-team-img {
+    width: 270px;
+    height: 270px;
+    background: url(../images/photo-2.png) no-repeat;
+}
+
+.fourth-team-img {
+    width: 270px;
+    height: 270px;
+    background: url(../images/photo-3.png) no-repeat;
+}
+
+.team-img-hover:hover {
+    width: 270px;
+    height: 270px;
+    background: #18B5DC;
+}
+
+.main__team-contact:hover {
+    opacity: 100;
+    width: 270px;
+    height: 270px;
+}
+
+.main__team-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 114px 0;
+    opacity: 0;
+}
+
+.tw-contact {
+    background: url(../images/contact-1.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.tw-contact:hover {
+    background: url(../images/tw-contact.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.fac-contact {
+    background: url(../images/contact-2.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.fac-contact:hover {
+    background: url(../images/fac-contact.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.ins-contact {
+    background: url(../images/contact-3.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.ins-contact:hover {
+    background: url(../images/ins-contact.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+}
+
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.logo {
+    margin: 40px 0 28px 0;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 0 40px 0;
+}
+
+.tw-hover {
+    background: url(../images/icon-1.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.tw-hover:hover {
+    background: url(../images/tw.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.fac-hover {
+    background: url(../images/icon-2.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.fac-hover:hover {
+    background: url(../images/fc.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.ins-hover {
+    background: url(../images/icon-3.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.ins-hover:hover {
+    background: url(../images/ins.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.in-hover {
+    background: url(../images/icon-4.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.in-hover:hover {
+    background: url(../images/in.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.tg-hover {
+    background: url(../images/icon-5.png) no-repeat;
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+.tg-hover:hover {
+    background: url(../images/tg.png) no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.border-r {
+    border-right: 1px solid #18B5DC;
+}
+
+
