@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mg-bottom {
+    margin-bottom: 40px;
+}
+
+.width {
+    width: 785px;
+}
+
+.header {
+    position: sticky;
+    background: #fff;
+    top: 0;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    max-height: 80px;
+}
+
+.header-link {
+    font-family: 'Tourney', cursive;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #000;
+    margin-top: 29px;
+}
+
+.menu {
+    margin: 25px 600px 30px 50px;
+    align-items: center;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list-item--after::after {
+    content: "/";
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin: 0 10px 0 10px;
+}
+
+.menu__list-link {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo {
+    display: flex;
+    margin: 13px 0 13px 0;
+}
+
+.side-bar {
+    position: sticky;
+    top: 100px; 
+    margin-left: 120px;
+    max-width: 385px;
+    margin-top: 70px;
+}
+
+.side-bar__menu {
+    list-style: none;
+}
+
+.side-bar__item {
+    margin: 0 0 70px 0;
+}
+
+.side-bar__link {
+    width: 365px;
+    height: 58px;
+    border-bottom: 1px solid #BDBDBD;
+    text-decoration: none;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+main {
+    display: flex;
+    column-gap: 30px;
+    background: url(../bg-picture.png) no-repeat;
+    background-attachment: fixed;
+    background-position: right 130px;
+}
+
+section {
+    /* width: 785px; */
+}
+
+.main-info {
+    margin-top: 70px;
+    
+}
+
+.line {
+    width: 100px;
+    height: 8px;
+    background: #000000;
+    margin: 70px 0 20px 0;
+}
+
+.line--mg-top {
+    margin-top: 0;
+}
+
+.title {
+    position: relative;
+    font-family: 'Francois One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 40px 0;
+}
+
+.subtitle--name {
+    position: absolute;
+    font-family: 'Farro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    top: -10px;
+    margin-left: 10px;
+}
+
+.chapter-1-text,
+.chapter-2-text,
+.chapter-3-text,
+.chapter-4-text {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+
+mark {
+    background: #DADADA;
+    height: 48px;
+}
