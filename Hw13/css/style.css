@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: #3DB370;
+    --light-green: #E1F4F5;
+    --middle-green: #CAEFF2;
+    --lighten-green: #F4FEFF;
+    --dark-green: #52C29D;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    border: 1px solid #EFEEF3;
+}
+
+.logo {
+    margin: 23px 0 23px 0;
+}
+
+.service {
+    margin: 100px 0 100px 0;
+}
+
+.service-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+}
+
+.title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin: 15px 0 40px 0;
+}
+
+.service__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service__card {
+    align-items: center;
+    padding: 40px;
+    width: 370px;
+    height: 340px;
+    background: #FFFFFF;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+}
+
+svg:hover .path-1 {
+    stroke: var(--green);
+    transition: all .3s;
+}
+
+svg:hover .path-2 {
+    fill: var(--light-green);
+    transition: all .3s;
+}
+
+svg:hover .path-3 {
+    fill: var(--middle-green);
+    transition: all .3s;
+}
+
+svg:hover .path-4 {
+    fill: var(--lighten-green);
+    transition: all .3s;
+}
+
+svg:hover .path-5 {
+    fill: var(--dark-green);
+    transition: all .3s;
+}
+
+.service__card-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin: 30px 0 15px 0;
+}
+
+.service__card-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #16133D;
+    margin-bottom: 30px;
+}
+
+.service__card-link {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+}
+
+.service__card-link:hover {
+    color: #1565D8;
+    transition: all .3s;
+}
+
+.footer {
+    height: 193px;
+    background: #16133D;
+}
+
+.footer-logo {
+    margin-top: 40px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin: 40px 0 40px 0;
+}
+
+svg:hover .path-6 {
+    fill: var(--green);
+    transition: all .3s;
+}
