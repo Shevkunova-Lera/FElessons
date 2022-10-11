@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F7F7F7;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.marginTop-20 {
+  margin-top: 20px;
+}
+
+.account {
+  background: #fff;
+  border-radius: 10px;
+  height: 590px;
+}
+.account__container {
+  margin: 36px 36px auto 36px;
+}
+.account__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C1C1C;
+}
+.account__form {
+  margin-top: 20px;
+}
+.account__form-label {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+.account__form-label--top {
+  top: 45px;
+}
+.account__form-text {
+  position: relative;
+  top: 27px;
+  height: 38px;
+  width: 245px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline-color: #007BFF;
+  outline-width: 1px;
+}
+.account__form-text--mr-6 {
+  margin-right: 6px;
+}
+.account__form-text--top {
+  top: 70px;
+}
+.account__form-block {
+  margin-top: 50px;
+}
+.account__form-block--m-0 {
+  display: flex;
+  margin: 0;
+}
+.account__form-email {
+  position: relative;
+  top: 27px;
+  height: 38px;
+  display: block;
+  width: 500px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline-width: 1px;
+  outline-color: #007BFF;
+}
+.account__form-email-text {
+  position: absolute;
+  top: 70px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #969696;
+}
+.account__form-radio {
+  margin-top: 70px;
+  position: relative;
+}
+.account__form-radio-block {
+  margin-left: 82px;
+  position: relative;
+}
+.account__form-male, .account__form-female {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+  left: 28px;
+}
+.account__form-radiobutton {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+.account__form-block {
+  position: relative;
+}
+.account__form-block-select {
+  margin-top: 70px;
+  position: relative;
+  height: 38px;
+  width: 245px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-right: 6px;
+  outline: 2px blue;
+}
+.account__form-block-city {
+  position: relative;
+  height: 38px;
+  width: 245px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline-color: #007BFF;
+  outline-width: 1px;
+}
+.account__form-button {
+  border: 0;
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  width: 500px;
+  height: 38px;
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #fff;
+}
+.account__form-terms {
+  width: 420px;
+  margin: 22px auto 20px auto;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #969696;
+  font-style: normal;
+}
+.account__form-link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #007BFF;
+  font-style: normal;
+}
+.account__form-line {
+  border: 0.5px solid #E4E4E4;
+  width: 500px;
+}
+.account__form-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.account__form-login-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: -0.2px;
+  color: #545454;
+  margin-right: 20px;
+  font-style: normal;
+}
+.account__form-login-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #007BFF;
+  text-decoration: none;
+}
+.account__form-update {
+  position: relative;
+  top: 50px;
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  width: 150px;
+  height: 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

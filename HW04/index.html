@@ -1,82 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Forms</title>
 </head>
-<body>
-    <section>
-        <h2 class="h2">Create an Account</h2>
-        <form>
-            <label>First Name</label>
-            <input name="first name" type="text">
-            <label>Last Name</label>
-            <input name="last name" type="text">
-            <div>
-                <label>E-mail</label>
-                <input name="email" type="email">
-                <p>We'll never share your email with anyone else.</p>
-            </div>
-            <input id="male" name="gender" type="radio" value="male">
-            <label for="male">Male</label>
-            <input id="female" name="gender" type="radio" value="female">
-            <label for="female">Female</label>
-            <div>
-                <label>Country</label>
-                <select name="country">
-                    <option value="1">Ukraine</option>
-                    <option value="2">USA</option>
-                    <option value="3">Greece</option>
-                    <option value="4">Poland</option>
-                </select>
-                <label>City</label>
-                <input name="city" type="text">
-            </div>
-            <button>Sign Up</button>
-            <p>By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
-            <hr>
-            <p>Have an account?</p>
-            <a href="#">Log In</a>
-        </form>
-    </section>
 
-    <section>
-        <h2>Profile</h2>
-        <form>
-            <img src="Image.png" alt="Foto profile">
-            <input name="foto" type="file">
-            <button type="reset">
-                <img src="Trash.svg" alt="trash">
-            </button>
-            <div>
-                <label>Name</label>
-                <input name="name" type="text">
-                <label>E-mail</label>
-                <input name="e-mail" type="email">
+<body>
+    <section class="form">
+        <div class="account">
+            <div class="account__container">
+                <h2 class="account__title">Create an Account</h2>
+                <form class="account__form">
+                    <!-- <div class="account__form-name"> -->
+                    <label class="account__form-label">First Name</label>
+                    <input class="account__form-text account__form-text--mr-6" name="first name" type="text" />
+                    <label class="account__form-label">Last Name</label>
+                    <input class="account__form-text" name="last name" type="text" />
+                    <!-- </div> -->
+                    <div class="account__form-block">
+                        <label class="account__form-label">E-mail</label>
+                        <input class="account__form-email" name="email" type="email" />
+                        <p class="account__form-email-text">
+                            We'll never share your email with anyone else.
+                        </p>
+                    </div>
+                    <div class="account__form-radio">
+                        <div>
+                            <input class="account__form-radiobutton" id="male" name="gender" type="radio"
+                                value="male" />
+                            <label class="account__form-male" for="male">Male</label>
+                        </div>
+                        <div class="account__form-radio-block">
+                            <input class="account__form-radiobutton" id="female" name="gender" type="radio"
+                                value="female" />
+                            <label class="account__form-female" for="female">Female</label>
+                        </div>
+                    </div>
+
+                    <div class="account__form-block">
+                        <label class="account__form-label account__form-label--top">Country</label>
+                        <select placeholder="Select" class="account__form-block-select" name="country">
+                            <option value="1">Ukraine</option>
+                            <option value="2">USA</option>
+                            <option value="3">Greece</option>
+                            <option value="4">Poland</option>
+                        </select>
+                        <label class="account__form-label account__form-label--top">City</label>
+                        <input class="account__form-block-city" name="city" type="text" />
+                    </div>
+                    <button class="account__form-button">Sign Up</button>
+                    <p class="account__form-terms">
+                        By clicking the 'Sign Up' button, you confirm that you accept our
+                        <a class="account__form-link" href="#">Terms of Use</a> and <a class="account__form-link"
+                            href="#">Privacy Policy</a>.
+                    </p>
+                    <hr class="account__form-line" />
+                    <div class="account__form-login">
+                        <p class="account__form-login-text">Have an account?</p>
+                        <a class="account__form-login-link" href="#">Log In</a>
+                    </div>
+                </form>
             </div>
-            <div>
-                <label>Country</label>
-                <select name="country">
-                    <option value="1">Ukraine</option>
-                    <option value="2">USA</option>
-                    <option value="3">Greece</option>
-                    <option value="4">Poland</option>
-                </select>
-                <label>City</label>
-                <input name="City" type="text">
+        </div>
+        <div class="account">
+            <div class="account__container">
+                <h2 class="account__title">Profile</h2>
+                <form>
+                    <img class="marginTop-20" src="Image.png" alt="Foto profile" />
+                    <input name="foto" type="file" />
+                    <button type="reset">
+                        <img src="Trash.svg" alt="trash" />
+                    </button>
+
+                    <div class="marginTop-20">
+                        <label class="account__form-label">Name</label>
+                        <input class="account__form-text" name="name" type="text" />
+                        <label class="account__form-label">E-mail</label>
+                        <input class="account__form-text" name="e-mail" type="email" />
+                    </div>
+                    <div class="account__form-block account__form-block--m-0">
+                        <label class="account__form-label account__form-label--top">Country</label>
+                        <select placeholder="Select" class="account__form-block-select" name="country">
+                            <option value="1">Ukraine</option>
+                            <option value="2">USA</option>
+                            <option value="3">Greece</option>
+                            <option value="4">Poland</option>
+                        </select>
+                        <div>
+                            <label class="account__form-label account__form-label--top">City</label>
+                            <input class="account__form-text account__form-text--top" name="city" type="text" />
+                        </div>
+                    </div>
+                    <div class="marginTop-20">
+                        <label class="account__form-label ">Zip Code</label>
+                        <input class="account__form-text" name="zip code" type="text" />
+                        <label class="account__form-label">Phone Number</label>
+                        <input class="account__form-text" name="telephone" type="tel" />
+                    </div>
+                    <button class="account__form-update">Update</button>
+                </form>
             </div>
-            <div>
-                <label>Zip Code</label>
-                <input name="zip code" type="text">
-                <label>Phone Number</label>
-                <input name="telephone" type="tel">
-            </div>
-            <button>Update</button>
-        </form>
+        </div>
     </section>
-    
 </body>
+
 </html>
