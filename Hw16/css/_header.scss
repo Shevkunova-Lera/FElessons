@@ -1,0 +1,21 @@
+.header {
+    height: 100px;
+
+    &__container {
+        @include container;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        margin: 44px 0 44px 0;
+    }
+
+    &__search {
+        margin-top: 42px;
+    }
+}
+

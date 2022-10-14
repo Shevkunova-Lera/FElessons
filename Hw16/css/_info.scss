@@ -1,0 +1,89 @@
+.info {
+    margin-top: 90px;
+    &__container {
+        @include container;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 38px;
+        letter-spacing: 0.1em;
+        color: $black;
+        width: 700px;
+    }
+
+    &__block {
+        &-text {
+            width: 470px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 32px;
+            letter-spacing: 0.05em;
+            color: $grey7;
+
+            &--mb {
+                margin-bottom: 45px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .info {
+        &__inner {
+            display: block;
+            margin-right: 0;
+        }
+
+        &__block {
+            &-text {
+                text-align: right;
+                width: 700px;
+                
+                &--mb {
+                    margin-top: 50px;
+                    margin-bottom: 30px;
+                }
+            }
+            
+            
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .info {
+        &__inner {
+            display: block;
+            margin-right: 0;
+        }
+
+        &__text {
+            width: 300px;
+        }
+
+        &__block {
+            &-text {
+                text-align: justify;
+                width: 300px;
+                
+                &--mb {
+                    margin-top: 50px;
+                    margin-bottom: 30px;
+                }
+            }
+            
+            
+        }
+    }
+}
