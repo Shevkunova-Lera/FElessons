@@ -1113,6 +1113,22 @@ p {
     right: 290px;
   }
 }
+@media screen and (max-width: 512px) {
+  .footer__heading {
+    display: block;
+  }
+  .footer__heading-title {
+    font-size: 35px;
+  }
+  .footer__heading-btn {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .footer__heading-btn-arrow {
+    top: 103px;
+    right: 225px;
+  }
+}
 @media screen and (max-width: 375px) {
   .footer__heading-btn-arrow {
     top: 103px;

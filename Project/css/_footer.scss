@@ -336,6 +336,28 @@
     }
 }
 
+@media screen and (max-width: 512px) {
+    .footer {
+        &__heading {
+            display: block;
+
+            &-title {
+                font-size: 35px;
+            }
+
+            &-btn {
+                margin-top: 20px;
+                margin-left: 0;
+
+                &-arrow {
+                    top: 103px;
+                    right: 225px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 375px) {
     .footer {
         &__heading {
