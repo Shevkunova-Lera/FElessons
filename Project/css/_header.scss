@@ -1,0 +1,135 @@
+.header {
+    height: 100px;
+
+    &__container {
+        @include container;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    }
+
+    &__btn {
+        position: relative;
+
+        &-demo {
+            width: 210px;
+            height: 60px;
+            background: $white;
+            border: 1px solid $violet;
+            box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+            border-radius: 50px;
+            cursor: pointer;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.005em;
+            color: $dark-violet;
+            padding-right: 35px;
+            
+            &:hover {
+                background: $violet;
+                color: $white;
+            }
+
+            &:focus {
+                background: $violet;
+                color: $white;
+            }
+
+        }
+
+        &-arrow {
+            position: absolute;
+            top: 23px;
+            right: 23px;
+        }
+
+        &:hover .path-4 {
+            stroke: $white;
+            z-index: 1;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        height: 300px;
+        &__inner {
+            display: block;
+            margin-top: 30px;
+        }
+
+        &__logo {
+            margin: 214px;
+        }
+
+        &__btn {
+            margin-top: 40px;
+            margin-left: 131px;
+
+            &-arrow {
+                right: 158px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .header {
+
+        &__logo {
+            margin: 182px;
+        }
+
+        &__btn {
+            margin-left: 105px;
+
+            &-arrow {
+                right: 120px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .header {
+        height: 300px;
+        &__inner {
+            display: block;
+            margin-top: 30px;
+        }
+
+        &__logo {
+            margin: 106px;
+        }
+
+        &__btn {
+            margin-top: 40px;
+            margin-left: 30px;
+
+            &-arrow {
+                right: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+
+        &__btn {
+
+            &-arrow {
+                right: 56px;
+            }
+        }
+    }
+}

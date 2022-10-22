@@ -1,0 +1,305 @@
+.features {
+    &__container {
+        @include container;
+    }
+
+    &__title {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        color: $dark-violet;
+    }
+
+    &__text {
+        width: 638px;
+        text-align: center;
+        margin: 50px 266px 0 266px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+
+        & + .features__inner {
+            margin-top: 50px;
+        }
+    }
+
+    &__card {
+        display: flex;
+        justify-content: space-between;
+
+        &-img {
+            position: absolute;
+            z-index: 1;
+            margin-top: 110px;
+        }
+
+        &-content {
+            width: 400px;
+            height: 400px;
+
+            margin-left: 170px;
+            position: relative;
+            background: $green-light;
+            border-radius: 50px;
+
+            &--padding-1 {
+                padding: 62px 70px 62px 100px;
+            }
+
+            &--violet {
+                background: $violet-light;
+            }
+
+            &--pink {
+                background: $pink-light;
+            }
+
+            &--blue {
+                background: $blue-light;
+            }
+
+            &-bgTop {
+                position: absolute;
+                top: 20px;
+                right: 50px;
+            }
+
+            &-bgBot {
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            &-ellipse {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+
+            &-center {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            &-title {
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                color: $dark-violet;
+
+                position: absolute;
+                // z-index: 1;
+            }
+
+            &-text {
+                position: absolute;
+                z-index: 1;
+                width: 230px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+
+            &-link {
+                position: absolute;
+                bottom: 62px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.005em;
+                color: $dark-violet;
+
+                &:hover {
+                    color: $violet-middle;
+                }
+            }
+
+            &-arrow {
+                position: absolute;
+                bottom: 67px;
+                right: 163px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .features {
+        &__card {
+            &-content {
+                margin-left: 140px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .features {
+        &__card {
+            &-img {
+                height: 100px;
+            }
+
+            &-content {
+                width: 320px;
+                height: 340px;
+                margin-left: 100px;
+
+                &--padding-1 {
+                    padding-left: 55px;
+                    padding-top: 43px;
+                }
+
+                &-text {
+                    font-size: 14px;
+                }
+
+                &-arrow {
+                    right: 126px;
+                }
+            }
+        }
+
+        &__text {
+            margin-left: 135px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .features {
+
+        &__inner {
+            display: block;
+        }
+
+        &__card {
+            margin-bottom: 50px;
+            margin-left: 100px;
+        }
+
+        &__text {
+            margin-left: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .features {
+
+        &__card {
+
+            margin-left: 0;
+            &-img {
+                height: 130px;
+            }
+
+            &-content {
+                width: 270px;
+                height: 390px;
+                margin-left: 120px;
+
+                &--padding-1 {
+                    padding-left: 60px;
+                }
+
+                &-text {
+                    width: 170px;
+                }
+
+                &-link {
+                    z-index: 1;
+                }
+
+                &-arrow {
+                    right: 68px;
+                }
+            }
+        }
+
+        &__text {
+            width: 440px;
+        }
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .features {
+
+        &__card {
+            display: block;
+            margin-left: 70px;
+
+            &-img {
+                position: relative;
+                height: 140px;
+                margin-top: 0;
+                margin-left: 40px;
+            }
+
+            &-content {
+                width: 270px;
+                height: 390px;
+                margin-left: 0;
+
+                &--padding-1 {
+                    padding-left: 45px;
+                    padding-bottom: 31px;
+                }
+
+                &-center {
+                    width: 270px;
+                }
+
+                &-text {
+                    width: 200px;
+                }
+
+                &-link {
+                    bottom: 50px;
+                }
+
+                &-arrow {
+                    right: 82px;
+                    bottom: 55px;
+                }
+            }
+        }
+
+        &__text {
+            width: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .features {
+
+        &__card {
+            margin-left: 0;
+            &-content {
+                &-center {
+                    width: 270px;
+                }
+            }
+        }
+
+        &__text {
+            width: 260px;;
+        }
+    }
+}

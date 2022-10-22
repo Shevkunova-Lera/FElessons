@@ -1,0 +1,145 @@
+.about {
+    
+    &__container {
+        @include container;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 130px;
+        background: $pink-medium;
+        border-radius: 50px;
+    }
+
+    &__img {
+        margin: 75px auto 75px 70px;
+    }
+
+    &__content {
+        width: 500px;
+        margin: 110px 70px 110px auto;
+
+        &-title {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+            color: $dark-violet;
+        }
+
+        &-text:nth-child(2) {
+            margin-top: 40px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .about {
+        &__img {
+            height: 470px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about {
+        &__inner {
+            gap: 70px;
+        }
+
+        &__img {
+            height: 300px;
+            margin-bottom: 0;
+            margin-top: 100px;
+        }
+
+        &__content {
+            &-title {
+                font-size: 32px;
+                line-height: 42px;
+            }
+
+            &-text {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        &__img {
+            height: 400px;
+            margin-left: 112px;
+            margin-top: 40px;
+        }
+
+        &__content {
+            width: 400px;
+            margin: 20px 50px 0 112px;
+            padding-bottom: 40px;
+
+            &-title {
+                font-size: 35px;
+                line-height: 45px;
+            }
+
+            &-text {
+                font-size: 16px;
+            }
+        }
+
+        &__inner {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about {
+        &__img {
+            height: 300px;
+            margin-left: 80px;
+        }
+
+        &__content {
+            width: 330px;
+            margin-left: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .about {
+        &__img {
+            height: 250px;
+            margin-left: 50px;
+        }
+
+        &__content {
+            width: 280px;
+            margin-left: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about {
+        &__img {
+            height: 200px;
+            margin-left: 30px;
+        }
+
+        &__content {
+            width: 230px;
+            margin-left: 30px;
+
+            &-title {
+                font-size: 28px;
+            }
+        }
+    }
+}
