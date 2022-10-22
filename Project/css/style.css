@@ -272,7 +272,10 @@ p {
   text-align: center;
   color: #fff;
 }
-.first-screen__button:hover:focus {
+.first-screen__button:hover {
+  background: #8A40EE;
+}
+.first-screen__button:focus {
   background: #8A40EE;
 }
 
@@ -770,6 +773,9 @@ p {
   .reviews__inner {
     height: 600px;
   }
+  .reviews__card {
+    width: 360px;
+  }
   .reviews__bg {
     width: 880px;
   }
@@ -870,7 +876,7 @@ p {
   position: relative;
   height: 60px;
 }
-.footer__heading-btn:hover .path-4 {
+.footer__heading-btn--hover:hover .path-4 {
   stroke: #fff;
   z-index: 1;
 }
@@ -1103,7 +1109,7 @@ p {
     height: 60px;
   }
   .footer__heading-btn-arrow {
-    right: 175px;
+    right: 20px;
     top: 103px;
   }
   .footer__nav {
