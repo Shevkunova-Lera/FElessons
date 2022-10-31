@@ -25,6 +25,7 @@
         position: absolute;
         right: 0;
         top: 82px;
+        object-fit: cover;
     }
 
     &__button {
@@ -98,7 +99,6 @@
         &__img {
             height: 200px;
             top: 100px;
-            // left: 0;
         }
 
     }

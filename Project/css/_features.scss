@@ -88,6 +88,8 @@
                 left: 20px;
                 bottom: 20px;
                 right: 20px;
+                height: inherit;
+                width: inherit;
             }
 
             &-title {
@@ -259,10 +261,6 @@
                 &--padding-1 {
                     padding-left: 45px;
                     padding-bottom: 31px;
-                }
-
-                &-center {
-                    width: 270px;
                 }
 
                 &-text {
