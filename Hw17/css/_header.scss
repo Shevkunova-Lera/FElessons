@@ -1,0 +1,78 @@
+.header {
+    
+
+    &__container {
+        @include container;
+    }
+
+    &__inner {
+        background: $blue-dark;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+
+        height: 80px;
+        margin-top: 30px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__pannel {
+        height: 26px;
+        margin: 27px 0 27px 20px;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        &-icon:hover .path-1 {
+            fill: $white;;
+        }
+    }
+
+    &__settings {
+        height: 36px;
+        margin: 22px 20px 22px 0;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+        &-lang {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+            height: 26px;
+
+            &-name {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: $grey-light;
+            }
+        }
+
+        &-help {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+            &-icon:hover .path-1 {
+                fill: $white;;
+            }
+        }
+
+        &-avatar {
+            position: relative;
+
+            &-status {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+}
