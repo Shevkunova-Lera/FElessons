@@ -8,6 +8,97 @@ body {
   background: #161D31;
 }
 
+.mg-top-30 {
+  margin-top: 30px;
+}
+
+.mg-bottom {
+  margin-bottom: 65px;
+}
+
+.header {
+  position: relative;
+}
+.header__nav {
+  display: block;
+  width: 80px;
+  position: absolute;
+  padding: 30px 0 0 0;
+  top: -30px;
+  background: #283046;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav {
+  width: 110px;
+  transition: all 0.5s;
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav .header__nav-text {
+  display: block;
+  margin-bottom: 20px;
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav .header__nav-dashboard {
+  margin-bottom: 11px;
+  margin-left: 39px;
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav .header__nav-devider {
+  margin-left: 39px;
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav .header__nav-logo {
+  margin-left: 39px;
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav .header__nav-app {
+  margin-bottom: 11px;
+  margin-left: 39px;
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav .header__nav-baige {
+  left: 63px;
+  bottom: 50px;
+}
+.header__nav-input[type=checkbox]:checked ~ .header__nav .header__nav-block-arrow {
+  margin-left: 30px;
+}
+.header__nav-block {
+  position: relative;
+}
+.header__nav-block-arrow {
+  position: absolute;
+  left: 70px;
+  top: 36px;
+}
+.header__nav-logo {
+  margin: 30px 24px 65px 24px;
+}
+.header__nav-dashboard {
+  margin: 0 24px 50px 24px;
+}
+.header__nav-devider {
+  margin-left: 24px;
+}
+.header__nav-text {
+  display: none;
+  margin: 0 0 65px 0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BDBDBD;
+}
+.header__nav-apps {
+  margin-top: 40px;
+}
+.header__nav-relative {
+  position: relative;
+}
+.header__nav-app {
+  margin: 0 24px 50px 24px;
+}
+.header__nav-baige {
+  position: absolute;
+  left: 46px;
+  bottom: 72px;
+}
 .header__container {
   max-width: 1170px;
   margin: 0 80px 0 190px;
@@ -17,7 +108,6 @@ body {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   height: 80px;
-  margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -67,4 +157,8 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+main .main-foto {
+  margin-left: 115px;
 }/*# sourceMappingURL=style.css.map */
