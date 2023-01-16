@@ -1,0 +1,16 @@
+#text-block {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    overflow: auto;
+}
+#resize-handle {
+    width: 20px;
+    height: 20px;
+    background-color: #aaa;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+}
